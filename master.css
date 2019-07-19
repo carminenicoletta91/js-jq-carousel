@@ -1,0 +1,20 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.box-carousel{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:100px;
+  width:100%;
+  height:500px;
+}
+.prev-icon{
+  font-size:50px;
+}
+.img-slide img{
+  width:50vw;
+  height:60vh;
+}
