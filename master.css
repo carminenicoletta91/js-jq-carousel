@@ -4,17 +4,37 @@
   box-sizing: border-box;
 }
 .box-carousel{
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top:100px;
   width:100%;
-  height:500px;
+
 }
 .prev-icon{
   font-size:50px;
 }
 .img-slide img{
-  width:50vw;
-  height:60vh;
+  width:70vw;
+  height:70vh;
+}
+.box-pallini{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:250px;
+  height:50px;
+  background:gray;
+  bottom:30px;
+  border-radius:20px;
+  opacity:0.8;
+}
+.box-pallini span {
+
+  width:15px;
+  height:15px;
+  border-radius:50%;
+  background:white;
 }
