@@ -15,9 +15,14 @@
 .prev-icon{
   font-size:50px;
 }
+
 .img-slide img{
+  display: none;
   width:70vw;
   height:70vh;
+}
+.img-slide img.active{
+  display: inline-block;
 }
 .box-pallini{
   position: absolute;
@@ -37,4 +42,19 @@
   height:15px;
   border-radius:50%;
   background:white;
+}
+.box-pallini span.active{
+  background-color:blue;
+}
+@media screen and (max-width: 600px)
+ {
+  .box-pallini{
+    width:150px;
+    height:50px;
+  }
+  .box-pallini span{
+    width:10px;
+    height:10px;
+  }
+
 }
